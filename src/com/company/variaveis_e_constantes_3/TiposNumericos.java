@@ -1,4 +1,4 @@
-package com.company;
+package com.company.variaveis_e_constantes_3;
 
 public class TiposNumericos {
     public static void main(String[] args) {

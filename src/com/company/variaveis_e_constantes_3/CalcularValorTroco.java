@@ -1,4 +1,4 @@
-package com.company;
+package com.company.variaveis_e_constantes_3;
 import java.util.Scanner;
 
 public class CalcularValorTroco {
