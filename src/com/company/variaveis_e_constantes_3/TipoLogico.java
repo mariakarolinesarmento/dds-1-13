@@ -1,6 +1,6 @@
 package com.company.variaveis_e_constantes_3;
 
-public class  TipoLogico {
+public class TipoLogico {
 
     public static void main(String[] args) {
         Boolean variavelVerdadeira = true;
@@ -22,9 +22,5 @@ public class  TipoLogico {
         } else {
             System.out.println("Nao! Ele(a) n'ao pode tirar a carteira.");
         }
-
-
-
-
     }
 }
