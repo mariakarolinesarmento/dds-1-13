@@ -1,6 +1,5 @@
+/*
 package com.company.teste;
-
-import com.sun.tools.javac.Main;
 
 import java.util.Objects;
 import java.util.Scanner;
@@ -19,3 +18,4 @@ public class Teste {
             System.out.println("Vogal!");
     }
 }
+*/
