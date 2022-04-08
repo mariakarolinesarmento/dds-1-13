@@ -26,19 +26,25 @@ public class Exercicio01 {
         System.out.println("Digite o segundo número: ");
         Double segundoNumero = scanner.nextDouble();
         Double resultado = null;
+
         if (operacao.equals(1)) {
             resultado = primeiroNumero + segundoNumero;
         }
+
         if (operacao.equals(2)) {
             resultado = primeiroNumero - segundoNumero;
         }
+
         if (operacao.equals(3)) {
             resultado = primeiroNumero * segundoNumero;
         }
+
         if (operacao.equals(4)) {
             resultado = primeiroNumero / segundoNumero;
         }
+
         System.out.println("Resultado: " + resultado);
+
         scanner.close();
     }
 }
