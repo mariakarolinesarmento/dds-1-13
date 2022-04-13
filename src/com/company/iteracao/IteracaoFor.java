@@ -21,14 +21,14 @@ public class IteracaoFor {
 
 
 
-//		for(int i = 0; i < 10; i++) {
-//			if (i == 5) {
-//				System.out.println("Vai parar!");
-//				break;
-//			}
-//
-//			System.out.println("Iteração: " + i);
-//		}
+		for(int i = 0; i < 10; i++) {
+			if (i == 5) {
+				System.out.println("Vai parar!");
+				break;
+			}
+
+			System.out.println("Iteração: " + i);
+		}
 
 
 
