@@ -21,14 +21,14 @@ public class IteracaoFor {
 
 
 
-		for(int i = 0; i < 10; i++) {
-			if (i == 5) {
-				System.out.println("Vai parar!");
-				break;
-			}
-
-			System.out.println("Iteração: " + i);
-		}
+//		for(int i = 0; i < 10; i++) {
+//			if (i == 5) {
+//				System.out.println("Vai parar!");
+//				break;
+//			}
+//
+//			System.out.println("Iteração: " + i);
+//		}
 
 
 
@@ -43,7 +43,7 @@ public class IteracaoFor {
 
 
 
-/*        Integer[] produtos = new Integer[]{ 100, 225, 300 };
+        Integer[] produtos = new Integer[]{ 100, 225, 300 };
 
         for(int i = 0; i < produtos.length; i++) {
             Integer produto = produtos[i];
@@ -54,6 +54,6 @@ public class IteracaoFor {
                 System.out.println("Produto encontrado!");
                 break;
             }
-        }*/
+        }
     }
 }
