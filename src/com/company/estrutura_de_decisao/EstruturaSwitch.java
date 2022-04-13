@@ -6,10 +6,8 @@ public class EstruturaSwitch {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         System.out.print("Digite o mês: ");
         Integer mes = scanner.nextInt();
-
         Double desconto = 0.0;
 
 //		if (mes.equals(1)) {
@@ -70,9 +68,7 @@ public class EstruturaSwitch {
                 System.err.println("Digite um mês válido!");
                 System.exit(1);
         }
-
         System.out.println("Seu desconto será de: " + desconto + "%");
-
         scanner.close();
     }
 }
