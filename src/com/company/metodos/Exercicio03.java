@@ -68,5 +68,6 @@ public class Exercicio03 {
 
     static void imprimirTraco() {
         System.out.println("---------------------------------------");
+
     }
 }
