@@ -1,8 +1,6 @@
 package com.company.programacao_orientada_a_objetos.metodo_instancia;
 
-
 public class MetodoInstancia {
-
     public static void main(String[] args) {
         Cliente cliente = new Cliente();
         cliente.primeiroNome = "Alexandre";
