@@ -1,4 +1,4 @@
-package com.company.programacao_orientada_a_objetos;
+package com.company.programacao_orientada_a_objetos.exercicio01;
 
 /*
 
@@ -17,5 +17,50 @@ variável para invocar o método que valida a necessidade de reposição de esto
 No final, você vai exibir, no console, se é necessária a reposição ou não.
 
  */
+
 public class Exercicio01 {
+
+    public static void main(String[] args) {
+        Produto produto = new Produto();
+        produto.nome = "Notebook XZ10";
+        produto.quantidadeEstoque = 8;
+        System.out.println("Necessário repor estoque do produto " + produto.nome + "? " + eNecessarioReporEstoque(produto));
+
+        Produto produto2 = new Produto();
+        produto2.nome = "SmartPhone z110";
+        produto2.quantidadeEstoque = 15;
+        System.out.println("Necessário repor estoque do produto " + produto2.nome + "? " + eNecessarioReporEstoque(produto2));
+    }
+
+    static Boolean eNecessarioReporEstoque(Produto produto) {
+        if (produto.quantidadeEstoque < Produto.QUANTIDADE_MINIMA_ESTOQUE) {
+            return true;
+        }
+        return false;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

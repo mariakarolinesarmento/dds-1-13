@@ -1,4 +1,4 @@
-package com.company.programacao_orientada_a_objetos;
+package com.company.programacao_orientada_a_objetos.primeira_classe;
 
 public class Produto {
     String nome;
