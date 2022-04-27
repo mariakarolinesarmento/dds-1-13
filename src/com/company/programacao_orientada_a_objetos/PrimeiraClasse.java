@@ -2,15 +2,15 @@ package com.company.programacao_orientada_a_objetos;
 
 public class PrimeiraClasse {
     public static void main(String[] args) {
-        Produto produto = new Produto();
-        produto.nome = "Smartphone";
-        produto.precoUnitario = 500.0;
-        produto.quantidade = 15;
-
-        exibirQuantidadeEmEstoque(produto);
+        Produto smartphone = new Produto();
+        smartphone.nome = "Galaxy S22";
+        smartphone.precoUnitario = 8500.0;
+        smartphone.quantidade = 15;
+        exibirQuantidadeEmEstoque(smartphone);
     }
 
     static void exibirQuantidadeEmEstoque(Produto produto) {
-        System.out.println("Quantidade em estoque do produto " + produto.nome + " é de " + produto.quantidade + " unidade(s).");
+        System.out.println("Quantidade em estoque do produto " + produto.nome
+                + " é de " + produto.quantidade + " unidade(s).");
     }
 }
