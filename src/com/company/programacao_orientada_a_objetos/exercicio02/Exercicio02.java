@@ -9,7 +9,7 @@ Refatore este código alterando o método estático para um método de instânci
 public class Exercicio02 {
 
     public static void main(String[] args) {
-        com.company.programacao_orientada_a_objetos.exercicio01.Produto produto = new com.company.programacao_orientada_a_objetos.exercicio01.Produto();
+        Produto produto = new Produto();
         produto.nome = "Notebook XZ10";
         produto.quantidadeEstoque = 8;
         System.out.println("Necessário repor estoque do produto " + produto.nome + "? " + eNecessarioReporEstoque(produto));
