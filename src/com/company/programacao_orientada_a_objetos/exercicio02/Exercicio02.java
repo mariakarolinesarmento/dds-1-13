@@ -1,11 +1,4 @@
 package com.company.programacao_orientada_a_objetos.exercicio02;
-
-/*
-
-Refatore este código alterando o método estático para um método de instância.
-
- */
-
 public class Exercicio02 {
     public static void main(String[] args) {
         Produto produto = new Produto();
@@ -13,5 +6,16 @@ public class Exercicio02 {
         produto.quantidadeEstoque = 8;
         System.out.println("Necessário repor estoque do produto " + produto.nome + "? " + produto.eNecessarioReporEstoque());
     }
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
