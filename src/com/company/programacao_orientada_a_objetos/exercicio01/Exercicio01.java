@@ -25,11 +25,6 @@ public class Exercicio01 {
         produto.nome = "Notebook XZ10";
         produto.quantidadeEstoque = 8;
         System.out.println("Necessário repor estoque do produto " + produto.nome + "? " + eNecessarioReporEstoque(produto));
-
-        Produto produto2 = new Produto();
-        produto2.nome = "SmartPhone z110";
-        produto2.quantidadeEstoque = 15;
-        System.out.println("Necessário repor estoque do produto " + produto2.nome + "? " + eNecessarioReporEstoque(produto2));
     }
 
     static Boolean eNecessarioReporEstoque(Produto produto) {
