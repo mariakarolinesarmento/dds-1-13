@@ -1,5 +1,11 @@
 package com.company.programacao_orientada_a_objetos.exercicio02;
 
+/*
+
+Refatore este código alterando o método estático para um método de instância.
+
+ */
+
 public class Exercicio02 {
 
     public static void main(String[] args) {
