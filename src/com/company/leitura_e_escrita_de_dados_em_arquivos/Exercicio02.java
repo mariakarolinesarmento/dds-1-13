@@ -12,7 +12,7 @@ import java.nio.file.Paths;
 import java.util.List;
 public class Exercicio02 {
     public static void main(String[] args) throws IOException {
-        List<String> linhas = lerDoArquivo("/tmp/lista-de-tarefas.txt");;
+        List<String> linhas = lerDoArquivo("C:\\Users\\Administrador\\Desktop\\arquivo.txt");;
         System.out.println("SUA LISTA DE TAREFAS DO DIA");
         for (int i = 0; i < linhas.size(); i++) {
             String tarefa = linhas.get(i);
