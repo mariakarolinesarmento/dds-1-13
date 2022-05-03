@@ -1,6 +1,6 @@
 package com.company.algoritmos_avancados;
 
-public class AlgoritmoAvancado { // <<<< Na aula, essa classe foi criada com o nome AlgoritmoAvando.
+public class AlgoritmoAvancado {
 
 	public static void main(String[] args) {
 		ListaAlunos lista = new ListaAlunos();
