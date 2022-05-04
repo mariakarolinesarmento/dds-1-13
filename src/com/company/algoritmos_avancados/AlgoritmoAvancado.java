@@ -24,6 +24,10 @@ public class AlgoritmoAvancado {
 		aluno = new Aluno();
 		aluno.nome = "Thiago";
 		lista.adicionar(aluno);
+
+		aluno = new Aluno();
+		aluno.nome = "Filipe";
+		lista.adicionar(aluno);
 		
 		for (int i = 0; i < lista.tamanho(); i++) {
 			Aluno a = lista.obter(i);
