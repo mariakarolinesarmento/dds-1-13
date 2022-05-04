@@ -4,7 +4,7 @@ package com.company.acessando_atributos_de_objetos.exercicio;
 
 instanciando e acessando atributos do objeto
 
-Utilizando o Eclipse, vamos fazer este primeiro exercícios sobre Orientação a Objetos. Fique a vontade para criar outro
+Utilizando o IntelliJ, vamos fazer este primeiro exercícios sobre Orientação a Objetos. Fique a vontade para criar outro
 projeto ou utilizar um existente.
 
 Um pet shop te chamou para ajudar no controle dos animais que eles cuidam. Eles irão precisar de muitos serviços, o
