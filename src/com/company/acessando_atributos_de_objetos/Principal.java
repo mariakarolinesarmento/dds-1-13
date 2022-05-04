@@ -16,8 +16,8 @@ public class Principal {
 
         System.out.println("Meu carro");
         System.out.println("-----------------------");
-        System.out.println("Modelo: " + seuCarro.modelo);
-        System.out.println("Ano: " + seuCarro.anoDeFabricacao);
+        System.out.println("Modelo: " + meuCarro.modelo);
+        System.out.println("Ano: " + meuCarro.anoDeFabricacao);
 
         System.out.println();
         System.out.println("Seu carro");
