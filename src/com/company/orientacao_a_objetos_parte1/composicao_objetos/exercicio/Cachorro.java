@@ -19,5 +19,20 @@ Imagine agora que você precise criar um programa para fazer uma pessoa caminhar
 
  */
 
-public class exercicio {
+public class Cachorro {
+    String nome;
+    String raça;
+    char sexo;
+    int idade;
 }
+
+
+
+
+
+
+
+
+
+
+
