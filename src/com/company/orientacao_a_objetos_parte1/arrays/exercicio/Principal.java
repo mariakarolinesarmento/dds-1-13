@@ -1,4 +1,4 @@
-package com.company.orientacao_a_objetos_parte1.arrays;
+package com.company.orientacao_a_objetos_parte1.arrays.exercicio;
 
 /*
 
@@ -20,5 +20,5 @@ Pronto! Mais um cliente satisfeito. Se quiser melhorar ainda mais o programa e f
 
  */
 
-public class exercicio {
+public class Principal {
 }
