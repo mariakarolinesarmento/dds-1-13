@@ -8,6 +8,8 @@ Agora você deve criar o código-fonte das classes ContaPagar e Fornecedor. Note
 As duas classes são JavaBeans. Quando desenhamos diagramas de classes, não há necessidade de mostrar os métodos getters e setters de JavaBeans.
 O método pagar() deve apenas exibir na tela as informações do pagamento (descrição da conta, valor, data de vencimento e nome do fornecedor).
 Quando finalizar a criação das classes ContaPagar e Fornecedor, crie uma outra classe chamada Principal com o código-fonte abaixo:
+public class Principal {
+    	public static void main(String[] args) {
 		Fornecedor imobiliaria = new Fornecedor();
 		imobiliaria.setNome("Casa & Cia Negócios Imobiliários");
 		Fornecedor mercado = new Fornecedor();
@@ -22,6 +24,8 @@ Quando finalizar a criação das classes ContaPagar e Fornecedor, crie uma outra
 		conta1.pagar();
 		conta2.pagar();
 		conta3.pagar();
+	}
+}
 Agora compile e execute a classe Principal. Evite ver a resolução do desafio antes de resolver os problemas sozinho.
 Bom trabalho! :)
 */
