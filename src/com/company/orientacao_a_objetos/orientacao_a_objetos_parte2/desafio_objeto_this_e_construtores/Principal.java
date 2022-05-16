@@ -33,7 +33,7 @@ public class Principal {
 		conta3.pagar();
 	}
 }
-Agora compile e execute a classe Principal. Evite ver a resolução do desafio antes de resolver os problemas sozinho.
+Agora compile e execute a classe Principal. Evite ver a resolução do TesteMatematica antes de resolver os problemas sozinho.
 Bom trabalho! :)
 */
 
