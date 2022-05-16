@@ -7,4 +7,8 @@ public class MatematicaUtil {
         }
         return calcularFibonacci(posicao - 1) + calcularFibonacci(posicao - 2);
     }
+
+    public static double calcularAreaCirculo(double raio) {
+        return raio * raio * MatematicaUtil.PI;
+    }
 }
