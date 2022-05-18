@@ -1,4 +1,4 @@
-package com.company.orientacao_a_objetos.orientacao_a_objetos_parte2.modificadores_static_e_final;
+package com.company.orientacao_a_objetos.orientacao_a_objetos_parte2.modificadores_static_e_final_5_10;
 public class TesteContador {
     public static void main(String[] args) {
         Contador c = new Contador();
