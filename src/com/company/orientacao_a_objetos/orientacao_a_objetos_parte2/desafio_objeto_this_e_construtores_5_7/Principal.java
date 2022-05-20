@@ -1,4 +1,4 @@
-package com.company.orientacao_a_objetos.orientacao_a_objetos_parte2.desafio_objeto_this_e_construtores;
+package com.company.orientacao_a_objetos.orientacao_a_objetos_parte2.desafio_objeto_this_e_construtores_5_7;
 /*
 Você é um empresário da área de tecnologia da informação que tem um bom faturamento mensal, porém suas contas a pagar
 estão totalmente desorganizadas. A planilha Excel que você usa já não suporta mais o movimento que a empresa possui,

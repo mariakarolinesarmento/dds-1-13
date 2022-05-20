@@ -1,4 +1,4 @@
-package com.company.orientacao_a_objetos.orientacao_a_objetos_parte2.desafio_objeto_this_e_construtores;
+package com.company.orientacao_a_objetos.orientacao_a_objetos_parte2.desafio_objeto_this_e_construtores_5_7;
 public class ContaPagar {
     String descricao;
     Double valor;
