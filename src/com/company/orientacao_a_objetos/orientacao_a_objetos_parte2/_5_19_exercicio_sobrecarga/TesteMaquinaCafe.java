@@ -16,5 +16,12 @@ Dica do professor: use o debugger do e execute o exemplo passo a passo. Isso aju
 
  */
 class TesteMaquinaCafe {
+    public static void main(String[] args) {
+        MaquinaCafe maquinaCafe = new MaquinaCafe();
+        maquinaCafe.acucarDisponivel = 30;
+        maquinaCafe.fazerCafe(10);
+        maquinaCafe.fazerCafe(15);
+        maquinaCafe.fazerCafe();
+    }
 
 }
