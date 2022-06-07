@@ -12,6 +12,7 @@ Usando interfaces e polimorfismo, precisamos desenvolver algo simples e intelige
 A interface Seguravel deve ser implementada por classes que representam objetos que podem ser assegurados. Essas classes devem implementar os métodos da interface.
 
 2. Agora criamos a classe Carro, que implementa a interface Seguravel, pois a corretora está apta a vender seguros para carros.
+
 3. Se Carro diz que implementa a interface Seguravel, ela deve implementar todos os métodos especificados na interface, pois uma interface é um contrato, ou seja, a classe deve garantir que faz o que ela pede.
 No código, incluímos os métodos obterDescricao() e calcularValorApolice(), além de dois atributos e um construtor. Os atributos são usados pelos métodos para calcular o valor da apólice e retornar a descrição do carro.
 
@@ -24,11 +25,19 @@ Veja que o método fazerPropostaSeguro() recebe como parâmetro um objeto do tip
 6. Para testar tudo que foi feito, vamos criar uma classe chamada Principal, que possui o método main().
 No método main(), instanciamos uma corretora de seguros, um carro e um imóvel, depois chamamos o método fazerPropostaSeguro() da corretora passando como parâmetro o carro e depois o imóvel.
 
-8. Compile tudo e execute a classe Principal.
+7. Compile tudo e execute a classe Principal.
 
-9. Quando tudo estiver funcionando, crie uma classe chamada Barco e outra chamada Notebook. As duas classes devem implementar a interface Seguravel. Implemente os métodos da interface e adicione algumas linhas na classe Principal para testar as novas classes.
+8. Quando tudo estiver funcionando, crie uma classe chamada Barco e outra chamada Notebook. As duas classes devem implementar a interface Seguravel. Implemente os métodos da interface e adicione algumas linhas na classe Principal para testar as novas classes.
 
  */
 public class Principal {
+
+    public static void main(String[] args) {
+        CorretoraSeguros corretora = new CorretoraSeguros();
+        Carro meuCarro = new Carro(45000d, 2012);
+        Imovel minhaCasa = new Imovel(920000, 320);
+        corretora.fazerPropostaSeguro(meuCarro);
+        corretora.fazerPropostaSeguro(minhaCasa);
+    }
 
 }
