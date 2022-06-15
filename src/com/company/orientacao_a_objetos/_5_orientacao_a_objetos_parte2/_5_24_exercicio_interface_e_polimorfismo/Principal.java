@@ -22,12 +22,12 @@ As fórmulas para calcular os valores das apólices são meramente fictícias. C
 5. Agora que já temos as classes que implementam a interface Seguravel, vamos criar uma outra classe chamada CorretoraSeguros. Ela será responsável por fazer a proposta de seguro do bem segurável e mostrar na tela.
 Veja que o método fazerPropostaSeguro() recebe como parâmetro um objeto do tipo Seguravel, ou seja, pode ser um Carro ou um Imovel, mas no futuro poderia receber também uma Aeronave ou Barco, desde que essas classes implementem a interface Seguravel.
 
-6. Para testar tudo que foi feito, vamos criar uma classe chamada Principal, que possui o método main().
+6. Para testar tudo que foi feito, vamos criar uma classe chamada DesafioNumeros, que possui o método main().
 No método main(), instanciamos uma corretora de seguros, um carro e um imóvel, depois chamamos o método fazerPropostaSeguro() da corretora passando como parâmetro o carro e depois o imóvel.
 
-7. Compile tudo e execute a classe Principal.
+7. Compile tudo e execute a classe DesafioNumeros.
 
-8. Quando tudo estiver funcionando, crie uma classe chamada Barco e outra chamada Notebook. As duas classes devem implementar a interface Seguravel. Implemente os métodos da interface e adicione algumas linhas na classe Principal para testar as novas classes.
+8. Quando tudo estiver funcionando, crie uma classe chamada Barco e outra chamada Notebook. As duas classes devem implementar a interface Seguravel. Implemente os métodos da interface e adicione algumas linhas na classe DesafioNumeros para testar as novas classes.
 
  */
 public class Principal {

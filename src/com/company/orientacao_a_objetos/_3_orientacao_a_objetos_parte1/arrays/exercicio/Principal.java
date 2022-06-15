@@ -14,7 +14,7 @@ Além dos atributos "descricao" e "quantidade" na classe Produto, temos também 
 2. Agora que já temos uma classe Produto, precisamos pensar em algo para armazenar a lista de todos os produtos informados. Isso parece muito com um estoque, não é? Então criamos a classe Estoque com um atributo do tipo array de produtos.
 Além do atributo "produtos", criamos também um método "listarProdutos", que percorrerá o array de produtos e mostrará na tela item por item.
 
-3. Já temos as classes Produto e Estoque e parece que estamos no caminho certo, mas ainda não temos nenhuma classe para pegar a entrada do teclado do usuário, instanciar produtos e adiciona-los ao array. Vamos criar uma classe chamada Principal que faz isso.
+3. Já temos as classes Produto e Estoque e parece que estamos no caminho certo, mas ainda não temos nenhuma classe para pegar a entrada do teclado do usuário, instanciar produtos e adiciona-los ao array. Vamos criar uma classe chamada DesafioNumeros que faz isso.
 Pronto! Mais um cliente satisfeito. Se quiser melhorar ainda mais o programa e fazer uma graça para o cliente, calcule a quantidade total de produtos no estoque e mostre no final da execução
 
 

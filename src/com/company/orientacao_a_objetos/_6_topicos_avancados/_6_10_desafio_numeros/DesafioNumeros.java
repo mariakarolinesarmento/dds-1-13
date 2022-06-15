@@ -12,5 +12,5 @@ Exibe na tela o valor calculado e formatado.
 
  */
 
-public class Principal {
+public class DesafioNumeros {
 }

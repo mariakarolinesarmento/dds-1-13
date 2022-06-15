@@ -17,7 +17,7 @@ public class OperacaoContaException extends Exception {
 
 }
 
-Na classe Principal, que é a responsável por instanciar todos os objetos necessários e invocar os métodos, use as instruções try/catch para capturar a exceção OperacaoContaException durante as chamadas aos métodos que executam operações em contas.
+Na classe DesafioNumeros, que é a responsável por instanciar todos os objetos necessários e invocar os métodos, use as instruções try/catch para capturar a exceção OperacaoContaException durante as chamadas aos métodos que executam operações em contas.
 
 
  */
