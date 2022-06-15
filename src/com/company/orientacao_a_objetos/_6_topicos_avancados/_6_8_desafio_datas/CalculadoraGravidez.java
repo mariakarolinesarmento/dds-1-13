@@ -19,13 +19,17 @@ public class CalculadoraGravidez {
     }
 
     public Date calcularDataEstimadaConcepcao() {
-        // implementar cálculo de data estimada da concepção
-        // 2 semanas após a data do último período menstrual
+        Calendar dataEstimadaDaConcepcao = converterDateParaCalendar(dataUltimoPeriodoMenstrual);
+        dataEstimadaDaConcepcao.add(Calendar.WEEK_OF_YEAR, 2);
+
+        return  dataEstimadaDaConcepcao.getTime();
     }
 
     public Date calcularDataEstimadaParto() {
-        // implementar cálculo de data estimada para parto
-        // 40 semanas após a data do último período menstrual
+        Calendar dataEstimadaParto = converterDateParaCalendar(dataUltimoPeriodoMenstrual);
+        dataEstimadaParto.add(Calendar.WEEK_OF_YEAR, 40);
+
+        return dataEstimadaParto.getTime();
     }
 
 }
