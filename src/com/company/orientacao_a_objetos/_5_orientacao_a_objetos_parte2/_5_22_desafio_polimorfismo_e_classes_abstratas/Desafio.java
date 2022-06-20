@@ -18,9 +18,9 @@ Ao fazer isso, você será obrigado a implementar esse novo método nas subclass
 
 Agora você pode voltar à classe RelatorioContas e invocar o método exibirDetalhes() durante a listagem. Veja que a classe RelatorioContas só deve conhecer o nome do método exibirDetalhes(), mais nada!
 
-Para testar, compile e execute a classe Principal abaixo:
+Para testar, compile e execute a classe DesafioNumeros abaixo:
 
-public class Principal {
+public class DesafioNumeros {
 
 	public static void main(String[] args) {
 		// instanciando fornecedores

@@ -19,9 +19,9 @@ Crie um método cancelar() na classe ContaPagar que muda a situação da conta p
 
 Ok, seu analista lhe deu muito trabalho, mas pense como isso será útil para você aprender sobre as enumerações, pacotes e, claro, praticar Java. :)
 
-Quando terminar todas as solicitações do analista, modifique a classe Principal do desafio anterior para o código-fonte abaixo, compile tudo e execute.
+Quando terminar todas as solicitações do analista, modifique a classe DesafioNumeros do desafio anterior para o código-fonte abaixo, compile tudo e execute.
 
-public class Principal {
+public class DesafioNumeros {
 
 	public static void main(String[] args) {
 		Fornecedor imobiliaria = new Fornecedor();
