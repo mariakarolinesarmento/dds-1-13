@@ -7,7 +7,6 @@ import java.net.Socket;
 public class Server {
 
     public static void main(String[] args) throws IOException, ClassNotFoundException {
-
         ServerSocket server = new ServerSocket(3333);
 
         System.out.println("Aguardando conexão...");
