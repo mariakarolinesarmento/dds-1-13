@@ -1,6 +1,5 @@
 package com.company.orientacao_a_objetos._7_mais_detalhes_e_frameworks._7_3_joptionpane;
 
-import jdk.nashorn.internal.scripts.JO;
 
 import javax.swing.*;
 import java.net.URL;
